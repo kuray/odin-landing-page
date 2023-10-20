@@ -1,0 +1,35 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0
+}
+
+.container{
+    width: 80%;
+    /* background: red; */
+    margin: 0 auto;
+}
+
+header, .hero{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 Auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.hero_right{
+    background-color: grey;
+}
